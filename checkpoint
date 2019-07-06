@@ -1,0 +1,6 @@
+model_checkpoint_path: "E:\\python\\yzmxinxi\\demo1\\0.99captcha.model-4200"
+all_model_checkpoint_paths: "E:\\python\\yzmxinxi\\demo1\\0.95captcha.model-3200"
+all_model_checkpoint_paths: "E:\\python\\yzmxinxi\\demo1\\0.96captcha.model-3300"
+all_model_checkpoint_paths: "E:\\python\\yzmxinxi\\demo1\\0.97captcha.model-3400"
+all_model_checkpoint_paths: "E:\\python\\yzmxinxi\\demo1\\0.98captcha.model-3700"
+all_model_checkpoint_paths: "E:\\python\\yzmxinxi\\demo1\\0.99captcha.model-4200"
