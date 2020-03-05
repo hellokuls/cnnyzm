@@ -4,5 +4,6 @@
 适用于无深度学习基础的朋友，只需要编写getimg.py相关路径即可
 
 有问题可以来公众号找我
-![](https://imgkr.cn-bj.ufileos.com/b44506be-4037-4c58-951b-b119d49828d8.jpg)
+
+![image](https://github.com/hellokuls/cnnyzm/blob/master/erweima.jpg)
 
