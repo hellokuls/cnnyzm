@@ -6,6 +6,9 @@
 
 有问题可以提issue
 
+## 本项目使用方法：
+
+[使用方法](https://mp.weixin.qq.com/s/wUpKG7uifU_aj8oWYEPqqQ)
 
 
 有关于验证码生成可以看我这两篇文章：
