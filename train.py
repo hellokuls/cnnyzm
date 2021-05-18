@@ -1,7 +1,8 @@
 import os
-import tensorflow as tf
-from demo1.process import next_batch
-from demo1.getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+from process import next_batch
+from getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
 from datetime import datetime
 
 
@@ -182,9 +183,4 @@ def train(height=CAPTCHA_HEIGHT, width=CAPTCHA_WIDTH, y_size=len(CAPTCHA_LIST) *
 
 if __name__ == '__main__':
     train()
-
-
-
-
-
 
