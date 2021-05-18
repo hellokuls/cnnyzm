@@ -36,10 +36,10 @@ def load_image(filename,isFlatten=False):
         return img_arr
 
 def load_allimg():
-    flies = file_name("E://DeskTop//codeimg")
+    flies = file_name("E://DeskTop//codeimg") # 这里填写验证码数据集的路径
     list1 = []
     for item in flies:
         # print(item)
-        list1.append(load_image("E://DeskTop//codeimg//"+str(item)))
+        list1.append(load_image("E://DeskTop//codeimg//"+str(item))) # 这里填写验证码数据集的路径
     return list1
 
