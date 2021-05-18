@@ -31,9 +31,9 @@ def vec2text(vec, captcha_list=CAPTCHA_LIST, size=CAPTCHA_LEN):
 # 返回特定shape图片
 def wrap_gen_captcha_text_and_image(shape=(CAPTCHA_HEIGHT, CAPTCHA_WIDTH, 3)):
         t_list = []
-        t = file_name("E://DeskTop//codeimg") # 这里填写验证码数据集的路径
+        t = file_name("./yzm") # 这里填写验证码数据集的路径
         for i in t:
-            index = i.rfind('-')
+            index = i.rfind('.')
             name = i[:index]
             t_list.append(name)
         # print(t_list)
@@ -56,8 +56,6 @@ def next_batch(batch_count=60, width=CAPTCHA_WIDTH, height=CAPTCHA_HEIGHT):
     for i in range(batch_count):
         text_a = random.choice(text)
         image_a = image[text.index(text_a)]
-        # print(text.index(text_a))
-        # print(text_a)
         image_a = convert2gray(image_a)
         # 将图片数组一维化 同时将文本也对应在两个二维组的同一行
         batch_x[i, :] = image_a.flatten()/ 255
