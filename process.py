@@ -1,8 +1,8 @@
 import numpy as np
 
-from demo1.getimg import file_name
-from demo1.getimg import load_allimg
-from demo1.getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
+from getimg import file_name
+from getimg import load_allimg
+from getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
 import random
 import cv2
 # 图片转为黑白，3维转1维
@@ -31,7 +31,7 @@ def vec2text(vec, captcha_list=CAPTCHA_LIST, size=CAPTCHA_LEN):
 # 返回特定shape图片
 def wrap_gen_captcha_text_and_image(shape=(CAPTCHA_HEIGHT, CAPTCHA_WIDTH, 3)):
         t_list = []
-        t = file_name("E://DeskTop//codeimg")
+        t = file_name("E://DeskTop//codeimg") # 这里填写验证码数据集的路径
         for i in t:
             index = i.rfind('-')
             name = i[:index]
