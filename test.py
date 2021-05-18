@@ -1,7 +1,7 @@
 import tensorflow as tf
-from demo1.train import cnn_graph
-from demo1.process import vec2text,convert2gray,wrap_gen_captcha_text_and_image
-from demo1.getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
+from train import cnn_graph
+from process import vec2text,convert2gray,wrap_gen_captcha_text_and_image
+from getimg import CAPTCHA_HEIGHT, CAPTCHA_WIDTH, CAPTCHA_LEN, CAPTCHA_LIST
 
 import numpy as np
 import random
